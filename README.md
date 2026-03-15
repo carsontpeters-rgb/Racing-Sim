@@ -6,5 +6,5 @@ Why did I make it?
 I made it because sim rigs are expensive and I figured I could make a nice one for cheaper, plus I learned a lot while working on the project and get a cool gaming controller out of it.
 How do you build it?
 Its a 3D printed rig with steel rods to support areas where just plastic would fail. Each pedal has a hall sensor and a magnet that measures how far the pedal is pressed and tells the microcontroller how much throttle to give, except the brake which uses a load cell run through a HX711 to amplify the signal. The steering column runs through 2 bearings with a gear in the middle so all the load goes through the frame and the gear turns the magnet to measure the angle. The H pattern shifter is similar to the wheel, it just has 2 encoders one for X and one for Y and based off those angles it tells the PC what gear its in. Its all run off 3.3V and a Teensy 4.1 with the code uploaded through Arduino IDE, you just have to change the USB type to keyboard mouse and joystick and hit upload.
-Hear is the onshape link for the cad
+Here is the onshape link for the cad
 (https://cad.onshape.com/documents/68b4fea7a6f0c741230f520d/w/fb4024dbed9d682b8b255ca7/e/c212651a466c837dd5f70d13)
